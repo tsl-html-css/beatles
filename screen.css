@@ -21,15 +21,9 @@ html, body {
 nav {
     /* 1. Add one rule here that makes the nav stick to the top of the window as the page scrolls. */
 
-    position: fixed;
-
     /* 2. Add another rule that makes the nav be as wide as the entire page. */
 
-    width: 100%;
-
     /* 3. Finally, include a rule that will center all TEXT inside of this element. */
-
-    text-align: center;
 
     border-bottom: 1px solid #ccc;
     background: #fff;
@@ -43,19 +37,13 @@ nav li {
 
     /* 4. Add one rule here that puts all these elements on one line. */
 
-    display: inline-block;
-
     /* 5. Add another rule that puts some space between them. */
-
-    margin: 0 10px;
 
     /* 6. If you see bullets on your list items, add a rule to remove them. */
 }
 
 .content {
     /* 7. Add a rule that puts space at the top of this element, which wil leave room for the nav. */
-
-    padding-top: 100px;
 }
 
 .intro {
@@ -77,12 +65,7 @@ nav li {
 .beatle {
     /* 10. Add a rule that makes this element the same width as the intro. */
 
-    width: 500px;
-    position: relative;
-
     /* 11. And center it the same way. */
-
-    margin: 0 auto;
 
     margin-bottom: 40px;
 }
@@ -98,18 +81,10 @@ nav li {
 /* 17. And with one last rule, put 40px of space between the right edge of the image and the left edge of the text. */
 /*     (Hint: this requires using a negative value.) */
 
-.beatle img {
-    position: absolute;
-    width: 200px;
-    top: 0;
-    left: -240px;
-}
-
 .source {
      /* 18. Finally, add a few rules to centered the source element and the text inside of it. */
+     /* 19. And give it a light top border, too. */
 
-    text-align: center;
-    border-top: 1px solid #ccc;
     margin-top: 20px;
     padding-top: 20px;
 }
