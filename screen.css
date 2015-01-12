@@ -68,8 +68,8 @@ nav li {
 /* 12. Write a selector that gets applied to JUST images that live withing divs of class "beatle". */
 /* Reference the LI rule above for the syntax. */
 
-/* 13. Each of these Beatle images should be taken out of the flow, so we can position it. That's one rule. */
-/* 14. In order for these to be positioned relative to the block of text, you need to add one rule to the previous ruleset. */
+/* 13. In the selector from (12), add a rule that does takes the Beatles images out of the flow so  you can position it. */
+/* 14. In order for those images to be positioned relative to the block of text, you also need to add one rule to the _previous_ ruleset. */
 
 /* 15. Then, to… */
 
