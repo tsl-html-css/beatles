@@ -78,6 +78,7 @@ nav li {
     /* 10. Add a rule that makes this element the same width as the intro. */
 
     width: 500px;
+    position: relative;
 
     /* 11. And center it the same way. */
 
@@ -89,18 +90,25 @@ nav li {
 /* 12. Write a selector that gets applied to JUST images that live withing divs of class "beatle". */
 /* Reference the LI rule above for the syntax. */
 
-/* 13. In the selector from (12), add a rule that does takes the Beatles images out of the flow so  you can position it. */
-/* 14. In order for those images to be positioned relative to the block of text, you also need to add one rule to the _previous_ ruleset. */
+/* 13. In the selector from #12, add ONE rule that does takes the Beatles images out of the flow so, you can position it. */
+/* 14. Then add a rule to make each picture 200px wide. */
 
-/* 15. Then, to… */
+/* 15. In order for those images to be positioned relative to the block of text, you also need to add one rule to the _previous_ ruleset. */
+/* 16. Then add a rule here to position the image to be align with the top of each .beatle div. */
+/* 17. And with one last rule, put 40px of space between the right edge of the image and the left edge of the text. */
+/*     (Hint: this requires using a negative value.) */
 
 .beatle img {
     position: absolute;
+    width: 200px;
+    top: 0;
+    left: -240px;
 }
 
 .source {
-     /* Finally, make the source centered.*/
+     /* 18. Finally, add a few rules to centered the source element and the text inside of it. */
 
+    text-align: center;
     border-top: 1px solid #ccc;
     margin-top: 20px;
     padding-top: 20px;
