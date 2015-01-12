@@ -38,7 +38,7 @@ nav {
 
 
 nav li {
-    /* 3. Notice how the selector here has a space in it. This tells CSS to apply the following */
+    /* Notice how the selector here has a space in it. This tells CSS to apply the following */
     /* rules ONLY to <li> elements that are INSIDE <nav> elements. This is called a nested tag. */
 
     /* 4. Add one rule here that puts all these elements on one line. */
