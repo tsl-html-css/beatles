@@ -1,15 +1,15 @@
 /* -------------------------------------------------------------------
 
 Alright guys, this should be fun. Follow the instructions inline.
-Make all the changes with CSS only — the HTML shouldn't change at all. 
+Make all the changes with CSS only — the HTML shouldn't change at all.
 This one is gonna be a little bit of a challenge!
 
-To see what the finished product should look like, 
+To see what the finished product should look like,
 check out images/finished-page.png
 
 ##### Instructions
 
-1.  Make sure everything in the header is centered 
+1.  Make sure everything in the header is centered
     Also, make sure the header stays at the top of the screen even if you scroll.
     Make sure the header covers the width of the screen!
 
@@ -20,7 +20,7 @@ check out images/finished-page.png
 
 4.  The content div should be centered on the page, and it should be 540px wide.
 
-5.  Each Beatle image should be at the top of the section, meaning the top of the 
+5.  Each Beatle image should be at the top of the section, meaning the top of the
     image should be aligned with the top of the name of that beatle (the h2).
 
     The right edge of each Beatle image should be 40px from the left edge of the content.
