@@ -9,24 +9,6 @@ check out images/finished-page.png
 
 ##### Instructions
 
-1.  Make sure everything in the header is centered
-    Also, make sure the header stays at the top of the screen even if you scroll.
-    Make sure the header covers the width of the screen!
-
-2.  The nav list items shouldn't have bullets and should all be on the same line.
-    Make sure there's 8px of padding on both sides of each nav item.
-
-3.  Everything in the intro should be centered, including the image.
-
-4.  The content div should be centered on the page, and it should be 540px wide.
-
-5.  Each Beatle image should be at the top of the section, meaning the top of the
-    image should be aligned with the top of the name of that beatle (the h2).
-
-    The right edge of each Beatle image should be 40px from the left edge of the content.
-    Each Beatle image should be 200px wide.
-
-6.  Center the source.
 
 ------------------------------------------------------------------- */
 
@@ -37,29 +19,88 @@ html, body {
 }
 
 nav {
+    /* 1. Add one rule here that makes the nav stick to the top of the window as the page scrolls. */
+
+    position: fixed;
+
+    /* 2. Add another rule that makes the nav be as wide as the entire page. */
+
+    width: 100%;
+
+    /* 3. Finally, include a rule that will center all TEXT inside of this element. */
+
+    text-align: center;
+
     border-bottom: 1px solid #ccc;
     background: #fff;
     z-index: 10;
 }
 
-nav ul li {
 
+nav li {
+    /* 3. Notice how the selector here has a space in it. This tells CSS to apply the following */
+    /* rules ONLY to <li> elements that are INSIDE <nav> elements. This is called a nested tag. */
+
+    /* 4. Add one rule here that puts all these elements on one line. */
+
+    display: inline-block;
+
+    /* 5. Add another rule that puts some space between them. */
+
+    margin: 0 10px;
+
+    /* 6. If you see bullets on your list items, add a rule to remove them. */
+}
+
+.content {
+    /* 7. Add a rule that puts space at the top of this element, which wil leave room for the nav. */
+
+    padding-top: 100px;
 }
 
 .intro {
+    /* 8. Make this div centered on the page. To do this, you need to define a width.*/
+    /* Make the div a little wider than the 2x2 image of the Beatles. */
+
+    margin: 0 auto;
+    width: 500px;
+
+    /* 9. We'd also like the text itself to be centered. */
+
+    text-align: center;
+
     margin-bottom: 40px;
     padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
 
-.content {
-}
-
 .beatle {
+    /* 10. Add a rule that makes this element the same width as the intro. */
+
+    width: 500px;
+
+    /* 11. And center it the same way. */
+
+    margin: 0 auto;
+
     margin-bottom: 40px;
 }
 
+/* 12. Write a selector that gets applied to JUST images that live withing divs of class "beatle". */
+/* Reference the LI rule above for the syntax. */
+
+/* 13. Each of these Beatle images should be taken out of the flow, so we can position it. That's one rule. */
+/* 14. In order for these to be positioned relative to the block of text, you need to add one rule to the previous ruleset. */
+
+/* 15. Then, to… */
+
+.beatle img {
+    position: absolute;
+}
+
 .source {
+     /* Finally, make the source centered.*/
+
     border-top: 1px solid #ccc;
     margin-top: 20px;
     padding-top: 20px;
