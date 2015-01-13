@@ -7,9 +7,6 @@ This one is gonna be a little bit of a challenge!
 To see what the finished product should look like,
 check out images/finished-page.png
 
-##### Instructions
-
-
 ------------------------------------------------------------------- */
 
 html, body {
@@ -33,7 +30,7 @@ nav {
 
 nav li {
     /* Notice how the selector here has a space in it. This tells CSS to apply the following */
-    /* rules ONLY to <li> elements that are INSIDE <nav> elements. This is called a nested tag. */
+    /* rules ONLY to <li> elements that are INSIDE <nav> elements. This is called a nested selector. */
 
     /* 4. Add one rule here that puts all these elements on one line. */
 
@@ -43,7 +40,7 @@ nav li {
 }
 
 .content {
-    /* 7. Add a rule that puts space at the top of this element, which wil leave room for the nav. */
+    /* 7. Add a rule that puts space at the top of this element, which will leave room for the nav. */
 }
 
 .intro {
