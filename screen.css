@@ -1,6 +1,5 @@
 /* -------------------------------------------------------------------
 
-Alright guys, this should be fun. Follow the instructions inline.
 Make all the changes with CSS only — the HTML shouldn't change at all.
 This one is gonna be a little bit of a challenge!
 
@@ -11,22 +10,23 @@ check out images/finished-page.png
 
 1.  Make sure everything in the header is centered
     Also, make sure the header stays at the top of the screen even if you scroll.
-    Make sure the header covers the width of the screen!
+    Make sure the header covers the width of the screen.
 
 2.  The nav list items shouldn't have bullets and should all be on the same line.
-    Make sure there's 8px of padding on both sides of each nav item.
+    Make sure there's padding on both sides of each nav item.
 
 3.  Everything in the intro should be centered, including the image.
 
-4.  The content div should be centered on the page, and it should be 540px wide.
+4.  The other content should be centered on the page, though the text should remain
+    ragged-right.
 
-5.  Each Beatle image should be at the top of the section, meaning the top of the
+5.  Each Beatle image should be at the top of its section, meaning the top of the
     image should be aligned with the top of the name of that beatle (the h2).
 
     The right edge of each Beatle image should be 40px from the left edge of the content.
-    Each Beatle image should be 200px wide.
+    Each Beatle image should be the same width.
 
-6.  Center the source.
+6.  Center the source at the bottom.
 
 ------------------------------------------------------------------- */
 
